@@ -1,0 +1,63 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+ }
+
+.image {
+    width: 288px;
+    height: 201px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#caption1 {
+    width: 288px;
+    background: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 145px;
+}
+
+#caption2 {
+    width: 288px;
+    background: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 375px;
+}
+
+#caption3 {
+    width: 288px;
+    background: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 605px;
+}
+
+#caption4 {
+    width: 288px;
+    background: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 145px;
+}
+
+#caption5 {
+    width: 288px;
+    background: teal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 375px;
+}
