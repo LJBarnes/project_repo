@@ -37,13 +37,7 @@ body {
        margin: 0 auto;
       }
       
-      h2 {
-        padding: 5px;
-        color:#4aaaa5;
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
-      }
-
-     #wrapper {
+    #wrapper {
         flex: 1 0 auto;
       }
       

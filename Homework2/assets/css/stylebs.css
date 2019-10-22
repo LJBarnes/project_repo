@@ -1,8 +1,57 @@
+html, body {
+    height: 100%;
+    margin:0;
+}
+
+body {
+    background-image: url("../images/tiny-squares.png");
+}
+
+.row {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row1 {
+    border-bottom: solid 1px  #cccccc;
+    background: white;
+}
+
+.column {
+    background: white;
+}
+
+
+h1 {
+    margin-right: 455px;
+    margin-left: 0;
+    color: white;
+    background: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    background: white;
+    width: 250px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.heading {
+    border-bottom: 1px solid #cccccc; 
+}
+
 .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 960px;
-    margin: 0 auto;
+    margin:  20px auto 0px auto;
     overflow: auto;
- }
+}
 
 .image {
     width: 288px;
@@ -12,52 +61,49 @@
     position: relative;
 }
 
-#caption1 {
-    width: 288px;
-    background: teal;
+#caption1, #caption2, #caption3, #caption4, #caption5 {
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background: #4aaaa5; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 288px;
     position: absolute;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#caption1 {
     top: 145px;
 }
 
 #caption2 {
-    width: 288px;
-    background: teal;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
     top: 375px;
 }
 
 #caption3 {
-    width: 288px;
-    background: teal;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
     top: 605px;
 }
 
 #caption4 {
-    width: 288px;
-    background: teal;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
     top: 145px;
 }
 
 #caption5 {
-    width: 288px;
-    background: teal;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 375px;
+  top: 375px;
 }
+
+.navbar2 {
+    color: white;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    }
+
+.copyright {
+    margin: 22px auto 0 auto;
+}
+     
