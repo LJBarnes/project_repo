@@ -106,4 +106,13 @@ h2 {
 .copyright {
     margin: 22px auto 0 auto;
 }
-     
+
+.submit-button {
+    width: 100px;
+    color: white;
+    background: #4aaaa5;
+    border-width: 0;
+    height: 30px;
+    margin-top: 10px;
+}
+
