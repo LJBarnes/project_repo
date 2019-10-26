@@ -58,36 +58,39 @@ h2 {
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
+    margin-left: 130px;
 }
 
 #caption1, #caption2, #caption3, #caption4, #caption5 {
-    color: white;
     background: #4aaaa5; 
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     width: 288px;
+    height: 50px;
     position: absolute;
-    font-size: 20px;
-    padding-top: 10px;
 }
 #caption1 {
-    top: 145px;
+    top: 150px;
+    left: 145px;
 }
 
 #caption2 {
     top: 375px;
+    left: 145px;
 }
 
 #caption3 {
     top: 605px;
+    left: 145px;
 }
 
 #caption4 {
     top: 145px;
+    left: 145px;
 }
 
 #caption5 {
   top: 375px;
+  left: 145px;
 }
 
 .footer {
@@ -148,4 +151,22 @@ p {
     margin: 20px;
   }
 
-  
+  h6 {
+      color: white;
+      padding-top: 15px;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+  }
+
+  @media (max-width: 600px) {
+     #profile-img {
+        height: 500px;
+        width: 420px; 
+        margin: 0 auto;
+     } 
+
+     p {
+         float: left;
+         text-align: center;
+     }
+  }
